@@ -1,2 +1,3 @@
-files:
-  - !include "hours.c"
+check50:
+  files:
+    - !include "hours.c"
