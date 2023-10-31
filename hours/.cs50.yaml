@@ -1,4 +1,4 @@
-# submit50 bermanpunahou/slugs/main/hours_test
+# submit50 bermanpunahou/slugs/main/hours
 
 check50:
   checks: "hours_test.c"
