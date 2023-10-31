@@ -4,5 +4,5 @@ check50:
       - run: ./hours # run program
         stdout: Hello, world!  # expect Hello, world! in stdout
         exit: 0 # expect program to exit with exitcode 0
-  files:
+    files:
     - !include "hours.c"
