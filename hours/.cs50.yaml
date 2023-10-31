@@ -1,10 +1,10 @@
 # check50 bermanpunahou/slugs/main/hours
 
 check50:
-  checks: "hours_test.c"
-    demo: # defines a check called demo
-      - run: ./hours # run program
-        stdout: Hello, world!  # expect Hello, world! in stdout
-        exit: 0 # expect program to exit with exitcode 0
-    files:
-    - !include "hours_test.c"
+  checks:
+      hello world:
+        - run: ./ hello.c
+          stdout: Hello, world!
+          exit: 0
+  files:
+    - !require "hello.c"
