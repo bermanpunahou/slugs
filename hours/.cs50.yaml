@@ -7,4 +7,8 @@ check50:
           stdout: Hello, world!\n
           exit: 0
   files:
+    - !require "hello"
+
+submit50:
+  files:
     - !include "hello.c"
