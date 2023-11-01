@@ -3,7 +3,7 @@
 check50:
   checks:
       hello world:
-        - run: ./ hello.c
+        - run: ./hello.c
           stdout: Hello, world!
           exit: 0
   files:
