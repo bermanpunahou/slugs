@@ -8,3 +8,4 @@ check50:
           exit: 0
   files:
     - !require "hello"
+    - !include "hello.c"
