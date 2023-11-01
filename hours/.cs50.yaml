@@ -7,4 +7,4 @@ check50:
           stdout: Hello, world!\n
           exit: 0
   files:
-    - !require "hello.c"
+    - !require "hello"
