@@ -6,5 +6,9 @@ check50:
         - run: ./hello.c
           stdout: Hello, world!
           exit: 0
+      foo:
+        - run: ./hello.c
+          stdout: bar
+          exit: 0
   files:
     - !require "hello.c"
