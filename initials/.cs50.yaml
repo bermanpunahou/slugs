@@ -1,12 +1,24 @@
-# check50 bermanpunahou/slugs/main/initials
+# slug: bermanpunahou/slugs/main/initials
 
 check50:
   checks:
-      hello world:
-        - run: ./initials
-          stdout: Hello, world!\n
-          exit: 0
-          
+    srb:
+      - run: ./initials Samantha Ruth Berman
+        stdout: SRB
+        exit: 0
+    eab:
+      - run: ./initials Emily Ayelet Berman
+        stdout: EAB
+        exit: 0
+    emily:
+      - run: ./initials Emily
+        stdout: correct usage: ./initials [your full name]
+        exit: 1
+    empty:
+      - run: ./initials
+        stdout: correct usage: ./initials [your full name]
+        exit: 1
+
 submit50:
   files:
     - !include "initials.c"
