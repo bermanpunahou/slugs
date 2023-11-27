@@ -4,11 +4,11 @@ check50:
   checks:
     srb:
       - run: ./initials Samantha Ruth Berman
-        stdout: SRB\n
+        stdout: S.R.B.\n
         exit: 0
     eab:
       - run: ./initials Emily Ayelet Berman
-        stdout: EAB\n
+        stdout: E.A.B.\n
         exit: 0
     emily:
       - run: ./initials Emily
