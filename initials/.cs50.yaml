@@ -22,3 +22,4 @@ check50:
 submit50:
   files:
     - !include "initials.c"
+    - !exclude "initials"
