@@ -4,19 +4,19 @@ check50:
   checks:
     srb:
       - run: ./initials Samantha Ruth Berman
-        stdout: SRB
+        stdout: SRB\n
         exit: 0
     eab:
       - run: ./initials Emily Ayelet Berman
-        stdout: EAB
+        stdout: EAB\n
         exit: 0
     emily:
       - run: ./initials Emily
-        stdout: "correct usage: ./initials [your full name]"
+        stdout: "correct usage: ./initials [your full name]\n"
         exit: 1
     empty:
       - run: ./initials
-        stdout: "correct usage: ./initials [your full name]"
+        stdout: "correct usage: ./initials [your full name]\n"
         exit: 1
 
 submit50:
