@@ -1,0 +1,8 @@
+# bermanpunahou/slugs/main/smiley-more
+
+// no check50
+check50:
+
+submit50:
+  files:
+    - !include "helpers.c"
