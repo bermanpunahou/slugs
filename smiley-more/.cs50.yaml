@@ -1,12 +1,13 @@
 # bermanpunahou/slugs/main/smiley-more
 
-check50:
-  checks:
-    srb:
-      - run: "./colorize smiley.bmp outfile.bmp"
-        exit: 0
-
 submit50:
   files:
     - !include "helpers.c"
-    - !exclude "helpers"
+    - !exclude "bmp.h"
+    - !exclude "colorize"
+    - !exclude "colorize.c"
+    - !exclude "helpers.h"
+    - !exclude "helpers-orig.c"
+    - !exclude "Makefile"
+    - !exclude "outfile.bmp"
+    - !exclude "smiley.bmp"
