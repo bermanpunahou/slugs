@@ -3,11 +3,11 @@
 submit50:
   files:
     - !include "helpers.c"
+    - !include "outfile.bmp"
     - !exclude "bmp.h"
     - !exclude "colorize"
     - !exclude "colorize.c"
     - !exclude "helpers.h"
     - !exclude "helpers-orig.c"
     - !exclude "Makefile"
-    - !exclude "outfile.bmp"
     - !exclude "smiley.bmp"
