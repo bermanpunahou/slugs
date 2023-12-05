@@ -1,0 +1,6 @@
+# bermanpunahou/slugs/main/encrypt
+
+submit50:
+  files:
+    - !include "encrypt.c"
+    - !exclude "encrypt"
