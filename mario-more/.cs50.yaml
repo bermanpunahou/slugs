@@ -2,5 +2,4 @@
 
 submit50:
   files:
-    - !exclude "*"
     - !include "mario-more.c"
