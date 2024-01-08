@@ -1,0 +1,5 @@
+# bermanpunahou/slugs/python/main/mario-more
+
+submit50:
+  files:
+    - !include "mario-more.c"
