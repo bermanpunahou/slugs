@@ -1,6 +1,12 @@
 # bermanpunahou/slugs/main/area
 
+check50:
+  checks:
+    area:
+      - run: ./area
+
 submit50:
   files:
     - !include "area.c"
     - !exclude "area"
+
