@@ -1,0 +1,6 @@
+# bermanpunahou/slugs/main/area
+
+submit50:
+  files:
+    - !include "area.c"
+    - !exclude "area"
