@@ -1,0 +1,11 @@
+# bermanpunahou/slugs/main/earth
+
+check50:
+  checks:
+    area:
+      - run: ./earth
+
+submit50:
+  files:
+    - !include "earth.c"
+    - !exclude "earth"
