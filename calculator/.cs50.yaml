@@ -1,0 +1,11 @@
+# bermanpunahou/slugs/main/calculator
+
+check50:
+  checks:
+    area:
+      - run: ./calculator
+
+submit50:
+  files:
+    - !include "calculator.c"
+    - !exclude "calculator"
