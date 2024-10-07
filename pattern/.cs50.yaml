@@ -1,0 +1,11 @@
+# bermanpunahou/slugs/main/pattern
+
+check50:
+  checks:
+    area:
+      - run: ./pattern
+
+submit50:
+  files:
+    - !include "pattern.c"
+    - !exclude "pattern"
