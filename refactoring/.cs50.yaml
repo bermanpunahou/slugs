@@ -1,0 +1,11 @@
+# bermanpunahou/slugs/main/refactoring
+
+check50:
+  checks:
+    area:
+      - run: ./refactoring
+
+submit50:
+  files:
+    - !include "refactoring.c"
+    - !exclude "refactoring"
