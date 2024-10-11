@@ -1,0 +1,11 @@
+# bermanpunahou/slugs/main/party
+
+check50:
+  checks:
+    area:
+      - run: ./party
+
+submit50:
+  files:
+    - !include "party.c"
+    - !exclude "party"
