@@ -1,0 +1,11 @@
+# bermanpunahou/slugs/main/max
+
+check50:
+  checks:
+    area:
+      - run: ./max
+
+submit50:
+  files:
+    - !include "max.c"
+    - !exclude "max"
