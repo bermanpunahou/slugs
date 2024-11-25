@@ -1,0 +1,16 @@
+# bermanpunahou/slugs/main/music
+
+check50:
+  checks:
+    area:
+      - run: ./synthesize jeopardy.wav < songs/jeopardy.txt
+
+submit50:
+  files:
+    - !include "synthesize.c"
+    - !include "notes.c"
+    - !include "wav.h"
+    - !include "wav.c"
+    - !include "helpers.h"
+    - !include "helpers.c"
+    - !exclude "synthesize"
