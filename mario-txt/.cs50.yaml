@@ -1,0 +1,10 @@
+# bermanpunahou/slugs/main/mario-txt
+
+check50:
+  checks:
+    area:
+      - run: python mario-txt.py
+
+submit50:
+  files:
+    - include mario-txt.py
